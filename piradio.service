@@ -1,0 +1,18 @@
+[Unit]
+Description=Pi Radio
+After=network-online.target sound.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/radio
+Environment="PATH=/home/pi/.virtualenvs/pimoroni/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/home/pi/.virtualenvs/pimoroni/bin/python /home/pi/radio/radio.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Rock Antenne",
+    "url": "https://stream.antenne.de/rockantenne"
+  },
+  {
+    "name": "Antenne Bayern",
+    "url": "https://stream.antenne.de/antenne"
+  },
+  {
+    "name": "Radio Swiss Jazz",
+    "url": "https://stream.srg-ssr.ch/m/rsj/mp3_128"
+  },
+  {
+    "name": "Radio Bossa Nova Brazil",
+    "url": "https://stream.streamgenial.stream/87eu2988rm0uv"
+  },
+  {
+    "name": "RMC2",
+    "url": "https://stream.rcs.revma.com/txdn8d324ucwv"
+  },
+  {
+    "name": "VAL 202",
+    "url": "http://mp3.rtvslo.si/val202"
+  },
+  {
+    "name": "Radio CITY",
+    "url": "https://stream1.radiocity.si/CityMp3128.mp3"
+  },
+  {
+    "name": "Rock Antenne Heavy Metal",
+    "url": "https://stream.rockantenne.de/heavy-metal/stream/aacp"
+  }
+]

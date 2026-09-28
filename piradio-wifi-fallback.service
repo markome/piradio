@@ -1,0 +1,13 @@
+[Unit]
+Description=PiRadio automatic WiFi setup fallback
+After=NetworkManager.service
+Wants=NetworkManager.service
+
+[Service]
+Type=simple
+ExecStart=/opt/piradio-wifi/venv/bin/python /opt/piradio-wifi/fallback.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
