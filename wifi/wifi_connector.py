@@ -32,10 +32,9 @@ class WiFiConnector:
 
         if result.returncode != 0:
             logger.error(
-                "Command failed: %s\nstdout: %s\nstderr: %s",
-                " ".join(args),
-                result.stdout.strip(),
-                result.stderr.strip(),
+                "NetworkManager command failed (exit %s): %s",
+                result.returncode,
+                args[:3],
             )
 
         return result

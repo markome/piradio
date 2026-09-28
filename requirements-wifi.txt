@@ -1,0 +1,2 @@
+# Installed in the separate /opt/piradio-wifi/venv environment.
+pi-wifi-setup==1.0.0

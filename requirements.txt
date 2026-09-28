@@ -1,0 +1,3 @@
+# Radio venv uses --system-site-packages for Debian's Pillow, spidev,
+# NumPy and RPi.GPIO. Keep the display driver here.
+st7789
