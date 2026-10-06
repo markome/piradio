@@ -74,6 +74,12 @@ If you edit stations locally, keep the edit in `/home/pi/radio/stations.json` ra
 - `requirements.txt`, `requirements-wifi.txt`: Python dependencies for separate environments
 - `scripts/install.sh`: Bookworm installation script
 
+## Development
+
+PiRadio was developed and maintained by Marko Meža with substantial assistance from OpenAI ChatGPT.
+
+ChatGPT was used extensively during development for code generation, debugging, refactoring, documentation, installation scripts, and implementation guidance. The project was reviewed, tested, integrated, and maintained by the repository author.
+
 ## License
 
 MIT; see [LICENSE](LICENSE).
